@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url('https://ichiebuy.com/wp-content/uploads/2021/04/pixta_71313830_M-1024x682.jpg.webp'); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を画面全体に表示 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+}
+
+.game-container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #68530e;
+}
+
+#shortcut {
+    font-size: 110px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
