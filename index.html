@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typer-ショートカットタイピングゲーム-</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Typer-ショートカットタイピングゲーム-</h1>
+    <div id="game">
+        <button id="start-button">ゲーム開始</button>
+        <button id="learn-button" onclick="window.location.href='https://kagostyle.com/shortcut-key/'">ショートカットを学ぶ</button>
+
+        <div>
+            <p>残り時間: <span id="timer-value">30</span>秒</p>
+            <p id="shortcut-display"></p>
+        </div>
+        <input type="text" id="user-input" disabled placeholder="ショートカットを入力">
+        <p id="result"></p>
+        <p id="feedback"></p> <!-- 追加 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
