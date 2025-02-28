@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
-    background-image: url('file:///Users/mahirok./Documents/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-02-28%2018.36.28.png'); /* 画像のパスを指定 */
+    background-image: url('https://japaclip.com/files/pc.png'); /* 画像のパスを指定 */
     background-size: cover; /* 画像を画面全体に表示 */
     background-position: center; /* 画像を中央に配置 */
     background-repeat: no-repeat; /* 画像を繰り返さない */
